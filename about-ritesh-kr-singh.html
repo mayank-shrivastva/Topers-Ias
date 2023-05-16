@@ -11,12 +11,14 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <title>Toppers IAS </title>
 
-    <!-- CSS -->
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/select2/css/select2.min.css" rel="stylesheet">
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/iconmoon/css/iconmoon.css" rel="stylesheet">
+    <link href="assets/owl-carousel/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/magnific-popup/css/magnific-popup.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -44,43 +46,338 @@
     </div>
 
     <!-- ==============================================
-    ** Coming Soon **
+    ** Header **
     =================================================== -->
-    <section class="container-fluid coming-soon">
-        <div class="row">
-            <div class="col-md-6 left">
-                <div class="inner"> <a href="index.html" class="logo"><img src="images/logo.jpg" class="img-responsive" alt=""></a>
-                    <div class="cnt-block">
-                        <h1>Coming soon</h1>
+    <header>
+        <!-- Start Header top Bar -->
+        <div class="header-top">
+            <div class="container clearfix">
+                <ul class="follow-us hidden-xs">
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+                <div class="right-block clearfix">
+                    <ul class="top-nav hidden-xs">
+                        <li><a href="register.html">Register</a></li>
+                        <li><a href="apply-online.html">Apply Online</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="faq1.html">FAQs</a></li>
+                    </ul>
+                    <div class="lang-wrapper">
+                        <div class="select-lang">
+                            <select id="currency_select">
+                                <option value="usd">USD</option>
+                                <option value="aud">AUD</option>
+                                <option value="gbp">GBP</option>
+                            </select>
                         </div>
-                    <div class="stay-connected">
-                        <h2>Stay connected, Stay Updated</h2>
-                        <ul class="follow-us clearfix">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
+                        <div class="select-lang2">
+                            <select class="custom_select">
+                                <option value="en">English</option>
+                                <option value="fr">French</option>
+                                <option value="de">German</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 right">
-                <div class="inner">
-                    <div class="cnt-block">
-                        <div class="ready">
-                            <h2>We'll be ready in</h2>
-                            <ul class="count-dwn-cnt clearfix">
+        </div>
+        <!-- End Header top Bar -->
+        <!-- Start Header Middle -->
+          <div class="container header-middle">
+            <div class="row"> <span class="col-xs-6 col-sm-3"><a href="index.html"><img src="images/logo.jpg" class="img-responsive" alt=""></a></span>
+                <div class="col-xs-6 col-sm-3"></div>
+                <div class="col-xs-6 col-sm-9">
+                    <div class="contact clearfix">
+                        <ul class="hidden-xs">
+                            <li> <span>Email</span> <a href="mailto:info@toppersias.in">info@toppersias.in</a> </li>
+                            <li> <span>Contact Numbers</span> 977 3636 100 </li>
+                        </ul>
+                        <a href="#" class="login">Student Login <span class="icon-more-icon"></span></a> 
+						<a href="#" class="login">Student Register<span class="icon-more-icon"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Middle -->
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                </div>
+                <div class="navbar-collapse collapse" id="navbar">
+                    
+                     <ul class="nav navbar-nav">
+                         
+                        <li> <a href="index.html">home</a></li> 
+						 
+						<li class="dropdown"> <a data-toggle="dropdown" href="#">About <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html">About Toppers IAS</a></li>
+                                <li><a href="about-ritesh-kr-singh.html">About ritesh kr singh</a></li>
                                 
-                                <li><span class="hours count">-60</span><span>Hours</span></li>
-                                <li><span class="minutes count">57</span><span>Minutes</span></li>
-                                <li><span class="seconds count">07</span><span>Seconds</span></li>
+                            </ul>
+                        </li>
+						
+						 
+						
+						
+						 
+                        <li class="dropdown"> <a data-toggle="dropdown" href="#">COURCES <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+							<li> <a href="why-sociology.html">why-sociology</a></li>
+                                 
+								   <li> <a href="Sociology-500+-Test-Series-cum.html">SOCIOLOGY 500+ TEST SERIES CUM QUESTION-ANSWER DISCUSSION</a></li>
+					
+                               
+								<li><a href="Sociology-Optional-Foundation-Batch-2024.html">Sociology Optional Foundation Batch 2024</a></li>
+                                <li><a href="Sociology-500+-Test-Series.html">Sociology 500+ Test Series</a></li>
+                                
+                            </ul>
+                        </li>
+						<li> <a href="results.html">Results</a></li>
+						     
+                        </li>
+						 <li class="dropdown"> <a data-toggle="dropdown" href="#">BLOG <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+							 
+                                <li><a href="about-upse.html">About UPSE</a></li>
+                                <li><a href="about-civil-services.html">About CIVIL SERIVCES</a></li>
+								   
+                                <li><a href="gs-syllabus.html">G.S SYLLABUS</a></li>
+                                <li><a href="sociology-syllabus.html">SOCIOLOGY SYLLABUS</a></li>
+								 
+                            </ul>
+                        </li>
+						 
+                         <li> <a href="contact.html">Contact</a></li>
+                     	
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navigation -->
+    </header>
+
+    <!-- ==============================================
+    ** Inner Banner **
+    =================================================== -->
+    <div class="inner-banner blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="content">
+                        <h4>About Ritesh kumar singh</h4>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==============================================
+    ** About **
+    =================================================== -->
+    <section class="about inner padding-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 left-block">
+                    <h2>About Ritesh Kr Singh</h2>
+					    <p>He is having enriched experience in the field of UPSC preparation. It is said that in UPSC teaching field a teacher’s personal experience  with the exam matters the most so that he can guide his student to achieve their dream post with minimum hurdle. </p>
+						<p>During his preparatory years he had constantly secured the highest marks in Sociology optional and this was one among the many reasons, he choose to teach sociology and guide other civil services aspirants to realize their dream through sociology optional. </p>
+						<p>Secondly, realising that a few teachers are good only at teaching Sociology paper I, others are good at paper II. So there was a gap and deficiency which other students also might be well aware of. So here Ritesh sir’s main objective is to fill this void in the larger interest of students.</p>
+			               <p>Another reason is his passion for teaching. His teaching aptitude is Simple, Applied, Easy and Exam Focused.</p>
+						   <p>His teaching pedagogy is well known for personalized and professional dedication and responsibility. In his classes, he constantly makes efforts to make theories and concepts, easy and comprehensive through examples and applications. </p>
+						   <p>He keep motivating students to ask doubt if any and pays equal attention on each and every student, realizing that every student is unique in their social, psychological and physical construct. Ritesh sir is passionate about the success of his students and leaves no stone unturned for their success from his side.</p>
+			   </div>
+                <div class="col-md-5 about-right"> <img src="images/ritesh-kumar.jpeg" class="img-responsive" alt=""> </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+    ** Why Choose **
+    =================================================== -->
+    <section class="why-choose grey-bg padding-lg">
+        <div class="container">
+            <h2><span>The Numbers Say it All</span>Why Choose Us</h2>
+            <ul class="our-strength opt2">
+                <li>
+                    <div class="icon"><span class="icon-certification-icon"> </span></div>
+                    <span class="counter">36</span>
+                    <div class="title">Certified Courses</div>
+                </li>
+                <li>
+                    <div class="icon"><span class="icon-student-icon"></span></div>
+                    <span class="counter">258,658</span>
+                    <div class="title">Students Enrolled </div>
+                </li>
+                <li>
+                    <div class="icon"><span class="icon-book-icon"></span></div>
+                    <div class="couter-outer"><span class="counter">95</span><span>%</span></div>
+                    <div class="title">Passing to Universities</div>
+                </li>
+                <li>
+                    <div class="icon"><span class="icon-parents-icon"></span></div>
+                    <div class="couter-outer"><span class="counter">100</span><span>%</span></div>
+                    <div class="title">Satisfied Parents</div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ==============================================
+    ** About Video **
+    =================================================== -->
+    <section class="about-video">
+        <div class="container">
+            <p>Take a tour <a class="video" href="https://www.youtube.com/watch?v=i11RXCJVEnw"> <span class="icon-play-icon"></span></a> Know more</p>
+        </div>
+    </section>
+	
+	<br>
+	 
+    <!-- ==============================================
+    ** Our Importance **
+    =================================================== -->
+    <section class="our-impotance padding-lg">
+        <div class="container">
+            <ul class="row">
+                <li class="col-sm-4 equal-hight">
+                    <div class="inner"> <img src="images/study-time-ico.jpg" alt="Malleable Study Time">
+                        <h3>Malleable Study Time</h3>
+                        <p>Study material available online 24/7. Study in your free time, no time management issues, perfect balance between work and study time.</p>
+                    </div>
+                </li>
+                <li class="col-sm-4 equal-hight">
+                    <div class="inner"> <img src="images/placement-ico.jpg" alt="Placement Assistance">
+                        <h3>Placement Assistance</h3>
+                        <p>Edumart University Online has access to all of Edumart Group’s placement resources and alumni network, through which thousands of job opportunities are generated.</p>
+                    </div>
+                </li>
+                <li class="col-sm-4 equal-hight">
+                    <div class="inner"> <img src="images/easy-access-ico.jpg" alt="Easy To Access">
+                        <h3>Easy To Access</h3>
+                        <p>There is easy accessibility to online help in terms of online teachers and online forums. Teachers can be contacted with the help of video chats and e-mails.</p>
+                    </div>
+                </li>
+                <li class="col-sm-4 equal-hight">
+                    <div class="inner"> <img src="images/study-go-ico.jpg" alt="Study on the Go">
+                        <h3>Study on the Go</h3>
+                        <p>LMS that is easily accessible on a number of devices such as mobile phones, I-pads, computers and other such devices. Availability of ready reckoners such that students can remember the key points of the session learnt.</p>
+                    </div>
+                </li>
+                 
+            </ul>
+        </div>
+    </section>
+
+    <!-- ==============================================
+    ** Browse Teacher **
+    =================================================== -->
+    
+
+    <!-- ==============================================
+    **Testimonial**
+    =================================================== -->
+     <section class="testimonial padding-lg">
+        <div class="container">
+            <div class="wrapper">
+                <h2>Alumini Testimonials</h2>
+                <ul class="testimonial-slide">
+                    <li>
+                        <p>“I’ve taken other coaching classes and Toppers IAS is the most helpful and most practical. My learning improved dramatically over …<a href="#">Read more</a></p>
+                        <span>Mohd Nasir <span></span></span>
+                    </li>
+                    <li>
+                        <p>Toppers IAS has opened up great opportunities in my career. I have learnt so much from here. The  knowledge, I …<a href="#">Read more</a></p>
+                        <span>Harshit Soni <span></span></span>
+                    </li>
+                    <li>
+                        <p>Toppers IAS is Amazing. Ritesh Sir is very helpful .Thank you sir for your guidance...<a href="#">Read more</a></p>
+                        <span>Riya Sharma <span></span></span>
+                    </li>
+                </ul>
+                <div id="bx-pager">
+                    <a data-slide-index="0" href=""><img src="images/testimonial-thumb1.jpg" class="img-circle" width="15%" alt="" /></a>
+                    <a data-slide-index="1" href=""><img src="images/testimonial-thumb2.jpg" class="img-circle" width="15%" alt="" /></a>
+                    <a data-slide-index="2" href=""><img src="images/testimonial-thumb3.jpg" class="img-circle" width="15%" alt="" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==============================================
+    ** Footer **
+    =================================================== -->
+      <footer class="footer">
+        <!-- Start Footer Top -->
+        <div class="container">
+            <div class="row row1">
+                <div class="col-sm-9 clearfix">
+                    <div class="foot-nav">
+                        <h3>About US</h3>
+                        <ul>
+                            <li><A href="#">Topper’s IAS has been founded by Ritesh Kumar Singh with the ambition to help student clear civil services examination with sociology optional. Topper’s IAS is exclusively for Sociology Optional teaching, which include...</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="foot-nav">
+                        <h3>Courses</h3>
+                        <ul>
+                            <li><a href="why-sociology.html">Why Sociology</a></li>
+                            <li><a href="Sociology-500+-Test-Series-cum.html">Sociology 500+ Test Series cum</a></li>
+                             
+                        </ul>
+                    </div>
+                    <div class="foot-nav">
+                        <h3>Why Us</h3>
+                        <ul>
+                             
+                        </ul>
+                    </div>
+                    <div class="foot-nav">
+                        <h3>Learning Experience</h3>
+                        <ul>
+                             
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-logo hidden-xs"><a href="index.html"><img src="images/footer-logo.jpg" class="img-responsive" alt=""></a></div>
+                    <p>© 2023 <span>Toppers IAS</span>. All rights reserved</p>
+                    <ul class="terms clearfix">
+                        <li><a href="terms.html">TERMS OF USE</a></li>
+                        <li><a href="privacy.html">PRIVACY POLICY</a></li>
+                        <li><a href="#">SITEMAP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Top -->
+        <!-- Start Footer Bottom -->
+        <div class="bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="connect-us">
+                            <h3>Connect with Us</h3>
+                            <ul class="follow-us clearfix">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
-                        <div class="stay-tuned">
-                            <h2>Stay Tuned</h2>
-                            
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="subscribe">
+                            <h3>Subscribe with Us</h3>
                             <!-- Begin MailChimp Signup Form -->
                             <div id="mc_embed_signup">
                                 <form action="//protechtheme.us16.list-manage.com/subscribe/post?u=cd5f66d2922f9e808f57e7d42&amp;id=ec6767feee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -99,18 +396,49 @@
                             <!--End mc_embed_signup-->
                         </div>
                     </div>
+                    <div class="col-sm-4">
+                        <div class="instagram">
+                            <h3>@INSTAGRAM</h3>
+                            <ul class="clearfix">
+                                <li><a href="#">
+                                        <figure><img src="images/insta-img1.jpg" class="img-responsive" alt=""></figure>
+                                    </a></li>
+                                <li><a href="#">
+                                        <figure><img src="images/insta-img2.jpg" class="img-responsive" alt=""></figure>
+                                    </a></li>
+                                <li><a href="#">
+                                        <figure><img src="images/insta-img3.jpg" class="img-responsive" alt=""></figure>
+                                    </a></li>
+                                <li><a href="#">
+                                        <figure><img src="images/insta-img4.jpg" class="img-responsive" alt=""></figure>
+                                    </a></li>
+                                <li><a href="#">
+                                        <figure><img src="images/insta-img5.jpg" class="img-responsive" alt=""></figure>
+                                    </a></li>
+                                <li><a href="#">
+                                        <figure><img src="images/insta-img6.jpg" class="img-responsive" alt=""></figure>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-
+        <!-- End Footer Bottom -->
+    </footer>
     <!-- Scroll to top -->
     <a href="#" class="scroll-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
 
     <!-- Optional JavaScript -->
     <script src="js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/countdown/js/countdown.js"></script>
+    <script src="assets/select2/js/select2.min.js"></script>
+    <script src="assets/matchHeight/js/matchHeight-min.js"></script>
+    <script src="assets/bxslider/js/bxslider.min.js"></script>
+    <script src="assets/waypoints/js/waypoints.min.js"></script>
+    <script src="assets/counterup/js/counterup.min.js"></script>
+    <script src="assets/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="assets/magnific-popup/js/magnific-popup.min.js"></script>
     <script src="js/custom.js"></script>
 </body>
 
