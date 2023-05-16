@@ -72,7 +72,7 @@ this is the file you need to edit to change the look of the Template.
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-	color: #93a0a7;
+	color: black;
 	line-height: 26px;
 }
 
@@ -731,6 +731,13 @@ textarea:focus::placeholder{
 .about ul.our-links li.apply-online {
 	background: #ff9600;
 }
+.about ul.our-links li {
+	display: block;
+	position: relative;
+}
+.about ul.our-links li.mayank {
+	background: red;
+}
 .about ul.our-links li.prospects .detail a.more {
 	border: 2px #ff9600 solid;
 	color: #ff9600;
@@ -738,6 +745,15 @@ textarea:focus::placeholder{
 .about ul.our-links li.prospects {
 	background: #2c97ea;
 }
+ 
+.about ul.our-links li.prospects .detail a.more {
+	border: 2px #2c97ea solid;
+	color: #2c97ea;
+}
+.about ul.our-links li.prospects {
+	background: #2c97ea;
+}
+ 
 .about ul.our-links li.prospects .detail a.more {
 	border: 2px #2c97ea solid;
 	color: #2c97ea;
