@@ -1506,7 +1506,7 @@ ul.our-strength li .title {
 .campus-tour ul.gallery li {
 	width: 20%;
 	float: left;
-	margin-left: 120px;
+	margin-left: 100px;
 	display: block;
 	background: #000;
 	position: relative;
@@ -2455,6 +2455,7 @@ ul.our-strength.opt2 li .title {
 	height: 100%;
 	display: block;
 	position: absolute;
+	
 	top: 0px;
 	z-index: 1;
 	content: "";
