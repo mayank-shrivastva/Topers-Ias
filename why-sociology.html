@@ -1,4 +1,5 @@
-<!doctype html>
+ 
+ <!doctype html>
 <html lang="en">
 
 <head>
@@ -15,8 +16,12 @@
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/select2/css/select2.min.css" rel="stylesheet">
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/magnific-popup/css/magnific-popup.css" rel="stylesheet">
     <link href="assets/iconmoon/css/iconmoon.css" rel="stylesheet">
+    <link href="assets/owl-carousel/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -44,65 +49,318 @@
     </div>
 
     <!-- ==============================================
-    ** Coming Soon **
+    ** Header **
     =================================================== -->
-    <section class="container-fluid coming-soon">
-        <div class="row">
-            <div class="col-md-6 left">
-                <div class="inner"> <a href="index.html" class="logo"><img src="images/logo.jpg" class="img-responsive" alt=""></a>
-                    <div class="cnt-block">
-                        <h1>Coming soon</h1>
+    <header>
+        <!-- Start Header top Bar -->
+        <div class="header-top">
+            <div class="container clearfix">
+                <ul class="follow-us hidden-xs">
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+                <div class="right-block clearfix">
+                    <ul class="top-nav hidden-xs">
+                        <li><a href="register.html">Register</a></li>
+                        <li><a href="apply-online.html">Apply Online</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="faq1.html">FAQs</a></li>
+                    </ul>
+                    <div class="lang-wrapper">
+                        <div class="select-lang">
+                            <select id="currency_select">
+                                <option value="usd">USD</option>
+                                <option value="aud">AUD</option>
+                                <option value="gbp">GBP</option>
+                            </select>
                         </div>
-                    <div class="stay-connected">
-                        <h2>Stay connected, Stay Updated</h2>
-                        <ul class="follow-us clearfix">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 right">
-                <div class="inner">
-                    <div class="cnt-block">
-                        <div class="ready">
-                            <h2>We'll be ready in</h2>
-                            <ul class="count-dwn-cnt clearfix">
-                                
-                                <li><span class="hours count">-60</span><span>Hours</span></li>
-                                <li><span class="minutes count">57</span><span>Minutes</span></li>
-                                <li><span class="seconds count">07</span><span>Seconds</span></li>
-                            </ul>
-                        </div>
-                        <div class="stay-tuned">
-                            <h2>Stay Tuned</h2>
-                            
-                            <!-- Begin MailChimp Signup Form -->
-                            <div id="mc_embed_signup">
-                                <form action="//protechtheme.us16.list-manage.com/subscribe/post?u=cd5f66d2922f9e808f57e7d42&amp;id=ec6767feee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                    <div id="mc_embed_signup_scroll">
-                                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="enter your email address" required>
-                                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                            <input type="text" name="b_cd5f66d2922f9e808f57e7d42_ec6767feee" tabindex="-1" value="">
-                                        </div>
-                                        <div class="clear">
-                                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                            <!--End mc_embed_signup-->
+                        <div class="select-lang2">
+                            <select class="custom_select">
+                                <option value="en">English</option>
+                                <option value="fr">French</option>
+                                <option value="de">German</option>
+                            </select>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <!-- End Header top Bar -->
+        <!-- Start Header Middle -->
+        <div class="container header-middle">
+            <div class="row"> <span class="col-xs-6 col-sm-3"><a href="index.html"><img src="images/logo.jpg" class="img-responsive" alt=""></a></span>
+                <div class="col-xs-6 col-sm-3"></div>
+                <div class="col-xs-6 col-sm-9">
+                    <div class="contact clearfix">
+                        <ul class="hidden-xs">
+                            <li> <span>Email</span> <a href="mailto:info@toppersias.in">info@toppersias.in</a> </li>
+                            <li> <span>Contact Numbers</span> 977 3636 100 </li>
+                        </ul>
+                        <a href="#" class="login">Student Login <span class="icon-more-icon"></span></a> 
+						<a href="#" class="login">Student Register <span class="icon-more-icon"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Middle -->
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                </div>
+                <div class="navbar-collapse collapse" id="navbar">
+                    
+                    <ul class="nav navbar-nav">
+                         
+                        <li> <a href="index.html">home</a></li> 
+						 
+						<li class="dropdown"> <a data-toggle="dropdown" href="#">About <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html">About Toppers IAS</a></li>
+                                <li><a href="about-ritesh-kr-singh.html">About ritesh kr singh</a></li>
+                                
+                            </ul>
+                        </li>
+						
+						 
+						
+						
+						 
+                        <li class="dropdown"> <a data-toggle="dropdown" href="#">COURCES <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+							<li> <a href="why-sociology.html">why-sociology</a></li>
+                                 
+								   <li> <a href="Sociology-500+-Test-Series-cum.html">SOCIOLOGY 500+ TEST SERIES CUM QUESTION-ANSWER DISCUSSION</a></li>
+					
+                               
+								   <li><a href="Sociology-Optional-Foundation-Batch-2024.html">Sociology Optional Foundation Batch 2024</a></li>
+                                <li><a href="Sociology-500+-Test-Series.html">Sociology 500+ Test Series</a></li>
+                              
+                            </ul>
+                        </li>
+						<li> <a href="results.html">Results</a></li>
+						     <ul class="dropdown-menu">
+                                
+                            </ul>
+                        </li>
+						 <li class="dropdown"> <a data-toggle="dropdown" href="#">BLOG <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+							 
+                                <li><a href="about-upse.html">About UPSE</a></li>
+                                <li><a href="about-civil-services.html">About CIVIL SERIVCES</a></li>
+								   
+                                <li><a href="gs-syllabus.html">G.S SYLLABUS</a></li>
+                                <li><a href="sociology-syllabus.html">SOCIOLOGY SYLLABUS</a></li>
+								 
+                            </ul>
+                        </li>
+						 
+                         <li> <a href="contact.html">Contact</a></li>
+                     	
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navigation -->
+    </header>
+
+    <!-- ==============================================
+    ** Inner Banner **
+    =================================================== -->
+    <div class="inner-banner blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="content">
+                        <h1>Blog</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==============================================
+    ** Blog Detail **
+    =================================================== -->
+    <div class="container blog-wrapper padding-lg">
+        <div class="row">
+            <!-- Start Left Column -->
+            <div class="col-sm-8 blog-left">
+                <ul class="blog-listing detail">
+                    <li> <img src="images/why-socology.png" class="img-responsive" alt="">
+					<p>Optional is Key to Success in Civil Service Examination</p>
+                        <h2><center><u>How to Choose the Right Optional Subject?</u></center></h2>
+                        <p><b>Choosing OPTIONAL subjects in Civil Services Examination is one of the most debated topics among the beginner IAS aspirants. Students believe that certain Optional subjects are more scoring than others, more performing than other subjects in past few years, help more in General Studies than other subjects etc. But choosing Optional Papers should not be based on these subjective aspects. Rather it should be based on some objective criterion, Nature, Scope and Size of the Syllabus, Uniformity and stability in Question Pattern, Relevance of the Syllabic content in day today life in Society, availability of study material and guidance etc. Remember, approach of UPSC is different from your academic studies, before choosing the optional you need to do a careful analysis of SYLLABUS, PREVIOUS YEARS PAPERS, REQUIREMENTS of SUBJECTS (Ideal, visionary, Numerical, Conceptual Theoretical), COMFORT LEVEL with the subject and PAST TRENDS should be done. A wrong decision may prove to be disastrous hence you should be careful while choosing your Optional.</p> 
+                          <p>SOCIOLOGY optional is gaining momentum among Civil services aspirants as there is changing trend in UPSC Mains from conventional topics to conceptual analysis with Contemporary orientations and observations. Further, this subject helps candidates in writing very good ESSAY as well as VALUE ADDITIONS in all four General Studies Papers.</p>                      
+						<p>Sociology Optional subject is popular among civil services aspirants, as this is more conceptual oriented as well as relevant in day today social, economic, political, cultural life which makes it more attractive. Syllabus is also comparatively short with only 13 units in both the papers. With the change in Exam pattern in 2013, the questions in other popular optionals i.e. Psychology, Geography, Public Administration, political Science, etc. has become unpredictable and dynamic. Whereas in Sociology there is stability and predictability in Question Pattern and with contemporary orientation it has become easier in comparison to other Optional subjects.</p>
+						 
+						
+						 
+						 </li>
+						  <h2><center><u>Why Sociology OPTIONAL in CSE Mains?</h2></center></u>
+						  <li> <img src="images/why-socology1.jpg" class="img-responsive" alt="">
+						  <b>When the question arises to choose a subject among the 51 optional subjects for IAS Mains examination, Sociology, because of its high scoring abilities always tops the list. As a matter of fact, for the last few years, Sociology has emerged as one of the highest scoring subjects in Mains examination. It is noteworthy that candidates securing among top 20 positions, 5-6 of them have chosen Sociology as an optional.</b>
+						 <ul style="list-style-type: square" >
+						  <br> <li>Sociology is the Best performing optional in the changed scenario with THE SHORTEST SYLLABUS & PREDICTABILITY IN QUESTION PATTERN.</li>
+<li>One can score 60 to 70 percent of 750 Marks (Sociology+ Essay) with basic understanding of sociological theories, concepts & facts.</li>
+<li>In comparison to other humanities subjects like Geography, Public Administration, Political Science etc., Sociology has been safe & secure optional because of limited number of thinkers & theories (Only six thinkers & six major theoretical strands). Subject like Geography, Public Administration, Psychology, Political Science etc. are specialist in nature with big syllabic content.</li>
+<li>Relatively Short Syllabus, predictability in Question Pattern, Makes Sociology the most suitable subject for Students with science (Engineering and Medicine) and Commerce Background.</li>
+<li>Every Year there is at least two Essays related with Sociology Syllabus. Sociology Powers aspirants for GS & Interview too.</li>
+	                      <h2><center><u>Why Ritesh Singh Sir’s Classes for Sociology?</h2></center></u>
+  <li>In past few years the NATURE OF QUESTIONS in Sociology has become MORE CONTEMPORARY AND CURRENT ORIENTED. Now there is a shift from bookish academic approach to ANALYTICAL and APPLIED one. Questions demand in-depth understanding of basics and interlinking it with current happenings and analytical, applied Explanations.</li>
+
+<li>Proper guidance and assistance is required to learn the skill of interlinking current happenings with the conventional topics. RITESH SINGH SIR at TOPPER’S IAS guides students according to the recent trends of UPSC. He begins the Civil Services Optional Subject with basics keeping in mind the understanding level of students, who have no academic background with the subject. Once the students are well conversant with the terms and terminologies and basics of the subject they move forward.</li>
+
+<li>While dealing with each topic of Optional Papers they not only interlink it with Contemporary & Current issue but also teach you how to intertwine both the optional papers (Paper I and II).</li>
+
+<li>Extracted from different text books, websites, journals, etc, Toppers IAS Study material is the best for Sociology Optional Papers. The study material not only save students’ precious time which they spent in searching for books but also provide updated reports, recent structural-institutional changes and developments reported in newspapers and journals, which are useful to answer unconventional questions and helps in scoring good marks in Main examination.</li>
+
+<li>So, if you chose Sociology as your optional subject in your Mains examination, TOPPERS IAS is determined to get you in the august list of TOPPERS with our pre-determined strategy, cohesive study material combined with your determination and hard work.</li>
+                </ul>
+				 <br><br>
+                <ul class="follow-us clearfix">
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                </ul>
+                 
+                 
+                    
+            </div>
+            <!-- End Left Column -->
+
+            <!-- Start Right Column -->
+            <div class="col-sm-4">
+                <div class="blog-right">
+                    <div class="search-block clearfix">
+                        <input name="Search" type="text" placeholder="Search">
+                        <button class="search"><span class="icon-search-icon"></span></button>
+                    </div>
+                    <div class="category">
+                        <h3>Category</h3>
+                        <ul>
+                            <li><a href="#">Lorem Ipsum is simply dummy <span>05</span></a></li>
+                            <li><a href="#">Ipsum is simply dummy <span>04</span></a></li>
+                            <li><a href="#">Lorem Ipsum is simply <span>02</span></a></li>
+                            <li><a href="#">Lorem Ipsum is simply dummy <span>03</span></a></li>
+                            <li><a href="#">Ipsum is simply dummy <span>02</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="recent-post">
+                        <h3>Recent Posts</h3>
+                        <ul>
+                            <li class="clearfix"> <a href="#">
+                                    <div class="img-block"><img src="images/rp-thumb1.jpg" class="img-responsive" alt=""></div>
+                                    <div class="detail">
+                                        <h4>simply dummy text of the...</h4>
+                                        <p><span class="icon-date-icon ico"></span><span>14 Feb</span> 2017</p>
+                                    </div>
+                                </a> </li>
+                            <li class="clearfix"> <a href="#">
+                                    <div class="img-block"><img src="images/rp-thumb2.jpg" class="img-responsive" alt=""></div>
+                                    <div class="detail">
+                                        <h4>simply dummy text of the...</h4>
+                                        <p><span class="icon-date-icon ico"></span><span>12 Feb</span> 2017</p>
+                                    </div>
+                                </a> </li>
+                            <li class="clearfix"> <a href="#">
+                                    <div class="img-block"><img src="images/rp-thumb3.jpg" class="img-responsive" alt=""></div>
+                                    <div class="detail">
+                                        <h4>simply dummy text of the...</h4>
+                                        <p><span class="icon-date-icon ico"></span><span>08 Feb</span> 2017</p>
+                                    </div>
+                                </a> </li>
+                        </ul>
+                    </div>
+                    <div class="archives">
+                        <h3>Archives</h3>
+                        <ul>
+                            <li><a href="#"><span class="icon-date-icon ico"></span> 20 August 2016</a></li>
+                            <li><a href="#"><span class="icon-date-icon ico"></span> 17 May 2016</a></li>
+                            <li><a href="#"><span class="icon-date-icon ico"></span> 06 April 2016</a></li>
+                            <li><a href="#"><span class="icon-date-icon ico"></span> 01 March 2016</a></li>
+                        </ul>
+                    </div>
+                    <div class="tags">
+                        <h3>Tags</h3>
+                        <ul class="tags-list clearfix">
+                            <li><a href="#">Mobile</a></li>
+                            <li><a href="#">Tablet</a></li>
+                            <li><a href="#">Software</a></li>
+                            <li><a href="#">ERP</a></li>
+                            <li><a href="#">Tablet</a></li>
+                            <li><a href="#">Software</a></li>
+                            <li><a href="#">Ipad</a></li>
+                            <li><a href="#">Software</a></li>
+                            <li><a href="#">Tablet</a></li>
+                            <li><a href="#">Mobile</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End Right Column -->
+        </div>
+    </div>
+
+    <!-- ==============================================
+    ** Footer **
+    =================================================== -->
+     <!-- ==============================================
+    ** Footer **
+    =================================================== -->
+    <footer class="footer">
+        <!-- Start Footer Top -->
+        <div class="container">
+            <div class="row row1">
+                <div class="col-sm-9 clearfix">
+                    <div class="foot-nav">
+                        <h3>About US</h3>
+                        <ul>
+                            <li><A href="#">Topper’s IAS has been founded by Ritesh Kumar Singh with the ambition to help student clear civil services examination with sociology optional. Topper’s IAS is exclusively for Sociology Optional teaching, which include...</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="foot-nav">
+                        <h3>Courses</h3>
+                        <ul>
+                            <li><a href="why-sociology.html">Why Sociology</a></li>
+                            <li><a href="Sociology-500+-Test-Series-cum.html">Sociology 500+ Test Series cum</a></li>
+                             
+                        </ul>
+                    </div>
+                    <div class="foot-nav">
+                        <h3>Why Us</h3>
+                        <ul>
+                             
+                        </ul>
+                    </div>
+                    <div class="foot-nav">
+                        <h3>Learning Experience</h3>
+                        <ul>
+                             
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-logo hidden-xs"><a href="index.html"><img src="images/footer-logo.jpg" class="img-responsive" alt=""></a></div>
+                    <p>© 2023 <span>Toppers IAS</span>. All rights reserved</p>
+                    <ul class="terms clearfix">
+                        <li><a href="terms.html">TERMS OF USE</a></li>
+                        <li><a href="privacy.html">PRIVACY POLICY</a></li>
+                        <li><a href="#">SITEMAP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Top -->
+       
+    </footer>
 
     <!-- Scroll to top -->
     <a href="#" class="scroll-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
@@ -110,8 +368,16 @@
     <!-- Optional JavaScript -->
     <script src="js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/countdown/js/countdown.js"></script>
+    <script src="assets/select2/js/select2.min.js"></script>
+    <script src="assets/matchHeight/js/matchHeight-min.js"></script>
+    <script src="assets/bxslider/js/bxslider.min.js"></script>
+    <script src="assets/waypoints/js/waypoints.min.js"></script>
+    <script src="assets/counterup/js/counterup.min.js"></script>
+    <script src="assets/magnific-popup/js/magnific-popup.min.js"></script>
+    <script src="assets/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
     <script src="js/custom.js"></script>
 </body>
 
 </html>
+
