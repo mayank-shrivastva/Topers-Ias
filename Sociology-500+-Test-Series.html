@@ -1,4 +1,4 @@
-<!doctype html>
+ <!doctype html>
 <html lang="en">
 
 <head>
@@ -11,12 +11,14 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <title>Toppers IAS </title>
 
-    <!-- CSS -->
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/select2/css/select2.min.css" rel="stylesheet">
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/iconmoon/css/iconmoon.css" rel="stylesheet">
+    <link href="assets/owl-carousel/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/magnific-popup/css/magnific-popup.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -44,43 +46,394 @@
     </div>
 
     <!-- ==============================================
-    ** Coming Soon **
+    ** Header **
     =================================================== -->
-    <section class="container-fluid coming-soon">
-        <div class="row">
-            <div class="col-md-6 left">
-                <div class="inner"> <a href="index.html" class="logo"><img src="images/logo.jpg" class="img-responsive" alt=""></a>
-                    <div class="cnt-block">
-                        <h1>Coming soon</h1>
+    <header>
+        <!-- Start Header top Bar -->
+        <div class="header-top">
+            <div class="container clearfix">
+                <ul class="follow-us hidden-xs">
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+                <div class="right-block clearfix">
+                    <ul class="top-nav hidden-xs">
+                        <li><a href="register.html">Register</a></li>
+                        <li><a href="apply-online.html">Apply Online</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="faq1.html">FAQs</a></li>
+                    </ul>
+                    <div class="lang-wrapper">
+                        <div class="select-lang">
+                            <select id="currency_select">
+                                <option value="usd">USD</option>
+                                <option value="aud">AUD</option>
+                                <option value="gbp">GBP</option>
+                            </select>
                         </div>
-                    <div class="stay-connected">
-                        <h2>Stay connected, Stay Updated</h2>
-                        <ul class="follow-us clearfix">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
+                        <div class="select-lang2">
+                            <select class="custom_select">
+                                <option value="en">English</option>
+                                <option value="fr">French</option>
+                                <option value="de">German</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 right">
-                <div class="inner">
-                    <div class="cnt-block">
-                        <div class="ready">
-                            <h2>We'll be ready in</h2>
-                            <ul class="count-dwn-cnt clearfix">
+        </div>
+        <!-- End Header top Bar -->
+        <!-- Start Header Middle -->
+          <div class="container header-middle">
+            <div class="row"> <span class="col-xs-6 col-sm-3"><a href="index.html"><img src="images/logo.jpg" class="img-responsive" alt=""></a></span>
+                <div class="col-xs-6 col-sm-3"></div>
+                <div class="col-xs-6 col-sm-9">
+                    <div class="contact clearfix">
+                        <ul class="hidden-xs">
+                            <li> <span>Email</span> <a href="mailto:info@toppersias.in">info@toppersias.in</a> </li>
+                            <li> <span>Contact Numbers</span> 977 3636 100 </li>
+                        </ul>
+                        <a href="#" class="login">Student Login <span class="icon-more-icon"></span></a> 
+						<a href="#" class="login">Student Register<span class="icon-more-icon"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Middle -->
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                </div>
+                <div class="navbar-collapse collapse" id="navbar">
+                    
+                     <ul class="nav navbar-nav">
+                         
+                        <li> <a href="index.html">home</a></li> 
+						 
+						<li class="dropdown"> <a data-toggle="dropdown" href="#">About <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html">About Toppers IAS</a></li>
+                                <li><a href="about-ritesh-kr-singh.html">About ritesh kr singh</a></li>
                                 
-                                <li><span class="hours count">-60</span><span>Hours</span></li>
-                                <li><span class="minutes count">57</span><span>Minutes</span></li>
-                                <li><span class="seconds count">07</span><span>Seconds</span></li>
+                            </ul>
+                        </li>
+						
+						 
+						
+						
+						 
+                        <li class="dropdown"> <a data-toggle="dropdown" href="#">COURCES <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+							<li> <a href="why-sociology.html">why-sociology</a></li>
+                                 
+								   <li> <a href="Sociology-500+-Test-Series-cum.html">SOCIOLOGY 500+ TEST SERIES CUM QUESTION-ANSWER DISCUSSION</a></li>
+					
+                               
+								<li><a href="Sociology-Optional-Foundation-Batch-2024.html">Sociology Optional Foundation Batch 2024</a></li>
+                                <li><a href="Sociology-500+-Test-Series.html">Sociology 500+ Test Series</a></li>
+                                
+                            </ul>
+                        </li>
+						<li> <a href="results.html">Results</a></li>
+						     
+                        </li>
+						 <li class="dropdown"> <a data-toggle="dropdown" href="#">BLOG <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+							 
+                                <li><a href="about-upse.html">About UPSE</a></li>
+                                <li><a href="about-civil-services.html">About CIVIL SERIVCES</a></li>
+								   
+                                <li><a href="gs-syllabus.html">G.S SYLLABUS</a></li>
+                                <li><a href="sociology-syllabus.html">SOCIOLOGY SYLLABUS</a></li>
+								 
+                            </ul>
+                        </li>
+						 
+                         <li> <a href="contact.html">Contact</a></li>
+                     	
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- ==============================================
+    ** Inner Banner **
+    =================================================== -->
+    <div class="inner-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-lg-9">
+                    <div class="content">
+                        <h3>Sociology</h3>
+                        <p> 500+ Test Series</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-lg-3"> <a href="apply-online.html" class="apply-online clearfix">
+                        <div class="left clearfix"> <span class="icon"><img src="images/apply-online-sm-ico.png" class="img-responsive" alt=""></span> <span class="txt">Apply Online</span> </div>
+                        <div class="arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                    </a> <a href="#" class="download-prospects brochure"> <span class="icon-brochure-icon"></span> <span class="small">Download:</span>Course Brochure</a> </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==============================================
+    ** Course Description **
+    =================================================== -->
+    <section class="about inner padding-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-md-push-5 left-block">
+                    <h3 >Sociology Optional 500+ Test series for 2023 CSE Mains. (BOTH OFFLINE & ONLINE MODE)</h3><br>
+					<ul style="list-style-type: square" >
+					<li>Watch review of our student Gamini Singla, All India Rank 3 in CSE-2021, to watch video Click   https://youtu.be/BO20zi4v7-Q</li>
+					 <li>This Sociology 500+ Test series programme is the part of second & final stage of Sociology optional preparation. First stage of preparation was Sociology Foundation Course where, with complete conceptual clarity and 100% coverage of Syllabus, a very strong foundation was laid for students enrolled in our Sociology foundation batch.</li>
+					 <li>Now, this programme covers entire Sociology Syllabus in Question-answer format where focus is to provide further boost to their preparation through comprehensive answer writing and detailed discussion of more thank 500 questions so that they can easily tackle any questions in UPSC exam and get more than 300+ marks.</li>
+					 <li>So the motive of this course is that our students should be able to write analytical answers of both traditional as well as current based questions and therefore fetch best marks in sociology optional and get selected with top ranks and achieve their dream career.</li>
+					 <u><b>Nature Of Sociology Syllabus and type of Questions asked:</b></u>
+					 <li>.A closer scrutiny of the Sociology syllabus and question asked in the examination clearly reveals that it has two broad type of topics: Static and Dynamic.</li>
+					 <li>The first category of topics, constituting majority of about 70%, have  well established scope, Syllabus is fixed and there is no dynamism. This makes the preparation of these topics comparatively easier.</li>
+					 <li>The second group of topics constitute about 30% of the syllabus. These type of topics, although comparatively less in number but maximum questions are asked from these segments particularly in sociology paper II, and also they are a little difficult to prepare because of their dynamism. This is mainly on account of the vague & vast scope of these topics. Here largely GS type questions are asked with a tagline ‘write your answer with SOCIOLOGICAL PERSPECTIVE</li>
+					 <li>And not only that, many times UPSC does not restrict itself to the boundary of syllabus. Many times they ask questions which are note mentioned in the syllabus or high vagueness is there.</li>
+					 <li>Now, before 2008, almost 90% of the question asked in the examination were from the first category i.e., the majority category that is static type and that too straight forward. This made the task of students as well as coaching institutions easier. Most of the questions asked in the exam were from the areas covered by these coaching institutions.</li>
+					 <li>After 2008, there has been a major shift where the nature of Questions asked from the first category of topics has become more analytical, current oriented and challenging and large number of questions asked are from the minority category, dynamic type which is a little difficult to prepare.</li>
+					 <li>However, it is bemusing that even after more than a decade since the trend started, most famous coaching classes of Sociology continue to follow the same old methodology. They still give very less significance & time to these topics. Ultimate result is that the aspirants perform poor in sociology optional and they get rejected.</li>
+					 <b><u>WHY SOCIOLOGY 500+</u></b>
+					 <li>Here at Toppers IAS we are well aware of the above mentioned changes and keeping these developments in mind, we have launched 500+ test series programme for our Sociology Foundation Batch Students.</li>
+					 <li>Ritesh sir has designed this course keeping in mind the present requirements. Through Sociology 500+ Programme sir try to comprehensively deal with both category of questions mentioned above. </li>
+					 <li>Key to success in the mains examination depends upon the writing skill beside knowledge. Keeping this in mind we make our students to write more than 500 questions and Ritesh sir discusses those questions in an analytical and comprehensive way in offline classroom.</li>
+					 <li>Now here we wish to highlight the fact that most of the coaching institutes they leave their foundation batch students in the lurch when their classes are over. Though they conduct test series but they are partial, not comprehensive, consisting of only either 6 or 8 or maximum 10 test and in that NOT all relevant questions are discussed comprehensively as well as conceptually. They largely ignore current based questions, do not cover entire sociology syllabus in a satisfactory way and therefore students have to suffer. Students are forced to join multiple coaching institutes year after year.They run from pillar to post and this creates sense of desperation, wastage of priceless years and of course monetary loss.</li>
+					 <li>Therefore, to avoid this problem faced bto further boost the preparedness of his students, Ritesh sir has come up with this unique programme. In this 500+ test series Programme, Sir deals both sociology paper through Question-answer, he pays special focus on conceptual aspect of sociology; dealing Sociologically relevant current based questions, that is, helping students write current based questions with sociological perspective, also providing Current content, data, case studies and examples. </li>
+					 <li>Since UPSC is in the habit of repeating questions, so relevant questions of the previous years, both from Paper I & II, are also covered through this 500+ Programme.</li>
+					 <li>Along with modular and comprehensive tests, we try to evaluate the progress of students and try to keep them on their toes.</li>
+					 <li>As mentioned above, the motive of this course is to cover entire sociology syllabus in question-answer format so that whatever question UPSC asks, our students should be able to handle them easily, write analytical answers and therefore fetch best marks in sociology and get selected with top ranks.</li>
+					 <li>We have, percentage wise, excellent track record of selections in civil services examination in the past few years. In CSE 2018 we had only 3 students who wrote mains examination and out of that Lakshay Pandey scored 316 marks in sociology, got selected and currently serving as Asst. Commissioner of Police, Delhi Police. In 2019, we had 18 students who wrote mains examination, 12 qualified for Personality test and out of that 4 were finally selected and in that Sanjita Mohapatra secured All India 10th Rank, topmost rank with sociology optional that year.</li>
+					 <li>Here we assure our students that this is just the beginning. We will not stop working hard for the success of our students.</li>
+					 <b>To Watch Our student All India Rank 10 holder Sanjita Mohapatra’s view on Ritesh Sir and also Demo lectures of Ritesh sir, click here>https://bit.ly/3gdimss</b>
+					 
+</ul>
+
+					
+					  
+					 
+					
+                </div>
+				<div class="col-md-5 col-md-pull-7">
+                    <div class="enquire-wrapper">
+                           <div class="enquire-now">
+                            <div class="inner">
+                                <h3>Enquire now</h3>
+                                <div class="row1">
+                                    <input name="Name" type="text" placeholder="Name">
+                                </div>
+                                <div class="row2 clearfix">
+                                    <input name="Email" type="text" placeholder="Email">
+                                    <input name="Phone" type="text" placeholder="Phone">
+                                </div>
+                                <div class="row2 clearfix">
+                                    <input name="Place" type="text" placeholder="Place">
+                                    <input name="Course" type="text" placeholder="Course">
+                                </div>
+                            </div>
+                            <button class="enquire-btn">Enquire now <span class="icon-more-icon"></span></button>
+                        </div>
+                
+            </div>
+			
+           
+        </div>
+		
+		 
+				
+                <div class="col-md-5 col-md-pull-7">
+                    <div class="enquire-wrapper"><br>
+                        <figure class=" "><img src="images/test-series-1.jpg" class="img-responsive"   alt=""></figure>
+                      
+					  <br>
+					  <div class="cert-head">
+                       <h3> <u>Focus of the Test Series</h3></u>
+                    </div><ul style="list-style-type: number" >
+                     <li>Development of good Answer Writing Skill as demanded by UPSC.</li>
+                      <li>Evaluation of the answer sheet in the context of demand and dynamism of the examination. Understanding your current state of preparedness & required plan of action.</li>
+                      <li>Proper discussion on each and every question. The student will come to know how to write, what to write and how much to write in short as well as long answers within the prescribed word limit.</li>
+                      <li>Focus on structure & presentation of answer according to requirements of the questions.</li>
+                        <li>Understanding the alignment of Theory, Facts, Sociological Studies & Personal Observation of Current Socio-Economic & Political Affairs in the answer.	</li>				 
+					 </ul>
+					 <br>
+					  <h3><u>Plan and Offers</u></h3><br>
+					  <ul style="list-style-type: square" >
+					  <li>Flexibility of writing the test on fixed schedule or plan your own schedule.</li>
+                      <li>Our plan facilitates ‘Demand Based Supply’ & cover whole syllabus according to the dynamic pattern of Mains Examination.</li>
+                      <li>All Test will be based on Changing Nature and Pattern of questions being asked by UPSC and will be conducted under examination situation on weekly basis at the institutional venue.</li>
+                       <li>Our Test plan is supplemented by detailed suggested reading for every topic. Explanation & analysis of the test with personalized attention. Special focus would be on model answers.</li>
+        
+                    </div>
+					<br>
+					<h3><u>Instruction for the Students</u></h3><br>
+					<li>Try to write the answer according to the actual demand of the questions.</li>
+                    <li>Focus on Key words & Tail words effectively (Elucidate – Explain, Comment, Examine, Critically examine, Discuss, Analyze, Illustrate, Review, Argue, Justify etc.)</li>
+                     <li>Understand the context of the questions. Content of the answer should be in the contextual framework.</li>
+                      <li>Logical structure of sentence and their alignment. Present relevant information, choice of words and proper statement.</li>
+                       <li>Proper visibility of idea through alignment Theory, Facts, Sociological Studies & Personal Observation of Current Socio-Economic & Political Affairs according to the requirement of the question.</li>
+                        <li>Impressive beginning and Conclusion of the answer. Give your opinion when asked for it. Incorporate your opinion from different perspective in a balance manner.</li>
+					
+                </div>  
+		 <div class="row">
+                <div class="col-sm-12">
+                    <div class="course-detail clearfix">
+                        <div class="duration clearfix">
+                            <div class="icon"><span class="icon-duration-icon"></span></div>
+                            <div class="detail"> <span>Duration</span>   </div>
+                        </div>
+                        <div class="duration eligible clearfix">
+                            <div class="icon"><span class="icon-eligibility-icon"></span></div>
+                            <div class="detail"> <span>ELIGIBILITY:</span>  <br>
+                               </div>
+                        </div>
+                        <div class="duration fee clearfix">
+                            <div class="detail"> <span>COURSE FEE:</span>  <br> </div>
+                        </div>
+                        <a href="apply-online.html" class="btn">apply now <span class="icon-more-icon"></span></a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- ==============================================
+    ** Course Details Tab **
+    =================================================== -->
+     
+
+    <!-- ==============================================
+    ** How to Apply **
+    =================================================== -->
+    <section class="how-apply padding-lg">
+        <div class="container">
+            <h2><span>There are many ways to learn</span>How to Apply</h2>
+            <ul class="row">
+                <li class="col-sm-4">
+                    <div class="icon-block"> <span class="num">1</span> <img src="images/registration-ico.png" alt=""></div>
+                    <h3>REGISTRATION</h3>
+                     </li>
+                <li class="col-sm-4">
+                    <div class="icon-block"> <span class="num">2</span> <img src="images/doc-ico.png" alt=""></div>
+                    <h3>Fee </h3>
+                    </li>
+                <li class="col-sm-4 active">
+                    <div class="icon-block"> <span class="num">3</span> <img src="images/get-start-ico.png" alt=""></div>
+                    <h3>Get started now</h3>
+                      </li>
+            </ul>
+            <div class="button-wrapper"> <a href="apply-online.html" class="btn">apply now <span class="icon-more-icon"></span></a> </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+    ** Comments **
+    =================================================== -->
+    
+     <!-- ==============================================
+    **Testimonial**
+    =================================================== -->
+     <section class="testimonial padding-lg">
+        <div class="container">
+            <div class="wrapper">
+                <h2>Alumini Testimonials</h2>
+                <ul class="testimonial-slide">
+                    <li>
+                        <p>“I’ve taken other coaching classes and Toppers IAS is the most helpful and most practical. My learning improved dramatically over …<a href="#">Read more</a></p>
+                        <span>Mohd Nasir <span></span></span>
+                    </li>
+                    <li>
+                        <p>Toppers IAS has opened up great opportunities in my career. I have learnt so much from here. The  knowledge, I …<a href="#">Read more</a></p>
+                        <span>Harshit Soni <span></span></span>
+                    </li>
+                    <li>
+                        <p>Toppers IAS is Amazing. Ritesh Sir is very helpful .Thank you sir for your guidance...<a href="#">Read more</a></p>
+                        <span>Riya Sharma <span></span></span>
+                    </li>
+                </ul>
+                <div id="bx-pager">
+                    <a data-slide-index="0" href=""><img src="images/testimonial-thumb1.jpg" class="img-circle" width="15%" alt="" /></a>
+                    <a data-slide-index="1" href=""><img src="images/testimonial-thumb2.jpg" class="img-circle" width="15%" alt="" /></a>
+                    <a data-slide-index="2" href=""><img src="images/testimonial-thumb3.jpg" class="img-circle" width="15%" alt="" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==============================================
+    ** Footer **
+    =================================================== -->
+      <footer class="footer">
+        <!-- Start Footer Top -->
+        <div class="container">
+            <div class="row row1">
+                <div class="col-sm-9 clearfix">
+                    <div class="foot-nav">
+                        <h3>About US</h3>
+                        <ul>
+                            <li><A href="#">Topper’s IAS has been founded by Ritesh Kumar Singh with the ambition to help student clear civil services examination with sociology optional. Topper’s IAS is exclusively for Sociology Optional teaching, which include...</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="foot-nav">
+                        <h3>Courses</h3>
+                        <ul>
+                            <li><a href="why-sociology.html">Why Sociology</a></li>
+                            <li><a href="Sociology-500+-Test-Series-cum.html">Sociology 500+ Test Series cum</a></li>
+                             
+                        </ul>
+                    </div>
+                    <div class="foot-nav">
+                        <h3>Why Us</h3>
+                        <ul>
+                             
+                        </ul>
+                    </div>
+                    <div class="foot-nav">
+                        <h3>Learning Experience</h3>
+                        <ul>
+                             
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-logo hidden-xs"><a href="index.html"><img src="images/footer-logo.jpg" class="img-responsive" alt=""></a></div>
+                    <p>© 2023 <span>Toppers IAS</span>. All rights reserved</p>
+                    <ul class="terms clearfix">
+                        <li><a href="terms.html">TERMS OF USE</a></li>
+                        <li><a href="privacy.html">PRIVACY POLICY</a></li>
+                        <li><a href="#">SITEMAP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Top -->
+        <!-- Start Footer Bottom -->
+        <div class="bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="connect-us">
+                            <h3>Connect with Us</h3>
+                            <ul class="follow-us clearfix">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
-                        <div class="stay-tuned">
-                            <h2>Stay Tuned</h2>
-                            
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="subscribe">
+                            <h3>Subscribe with Us</h3>
                             <!-- Begin MailChimp Signup Form -->
                             <div id="mc_embed_signup">
                                 <form action="//protechtheme.us16.list-manage.com/subscribe/post?u=cd5f66d2922f9e808f57e7d42&amp;id=ec6767feee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -99,10 +452,36 @@
                             <!--End mc_embed_signup-->
                         </div>
                     </div>
+                    <div class="col-sm-4">
+                        <div class="instagram">
+                            <h3>@INSTAGRAM</h3>
+                            <ul class="clearfix">
+                                <li><a href="#">
+                                        <figure><img src="images/insta-img1.jpg" class="img-responsive" alt=""></figure>
+                                    </a></li>
+                                <li><a href="#">
+                                        <figure><img src="images/insta-img2.jpg" class="img-responsive" alt=""></figure>
+                                    </a></li>
+                                <li><a href="#">
+                                        <figure><img src="images/insta-img3.jpg" class="img-responsive" alt=""></figure>
+                                    </a></li>
+                                <li><a href="#">
+                                        <figure><img src="images/insta-img4.jpg" class="img-responsive" alt=""></figure>
+                                    </a></li>
+                                <li><a href="#">
+                                        <figure><img src="images/insta-img5.jpg" class="img-responsive" alt=""></figure>
+                                    </a></li>
+                                <li><a href="#">
+                                        <figure><img src="images/insta-img6.jpg" class="img-responsive" alt=""></figure>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+        <!-- End Footer Bottom -->
+    </footer>
 
     <!-- Scroll to top -->
     <a href="#" class="scroll-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
@@ -110,7 +489,9 @@
     <!-- Optional JavaScript -->
     <script src="js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/countdown/js/countdown.js"></script>
+    <script src="assets/select2/js/select2.min.js"></script>
+    <script src="assets/bxslider/js/bxslider.min.js"></script>
+    <script src="assets/owl-carousel/js/owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
 </body>
 
