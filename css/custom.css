@@ -7335,3 +7335,9 @@ a.btn-circle:hover {
  		padding: 0 8px;
 	}
 }
+p.ex1 {
+  margin-left: 30px;
+}
+p.ex2 {
+  margin-left: 60px;
+}
