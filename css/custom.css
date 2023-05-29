@@ -7344,3 +7344,10 @@ p.ex2 {
 p.ex3 {
    font-size:90px;
 }
+ h4.date {
+         text-align: center;
+         }
+         h4.mk{
+         text-align: center;
+         margin-left:10%;
+         }
