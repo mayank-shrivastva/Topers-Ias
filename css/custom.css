@@ -586,7 +586,7 @@ textarea:focus::placeholder{
 	 background-size: 102% 100%;
 }
 .banner-outer .slide2 {
-	background: url(../images/Banner2.png)  no-repeat center top / cover;
+	background: url(../images/banner2.png)  no-repeat center top / cover;
     background-size: 102% 100%;
 }
  
