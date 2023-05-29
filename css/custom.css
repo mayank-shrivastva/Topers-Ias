@@ -579,14 +579,14 @@ textarea:focus::placeholder{
 	height: 588px;
 }
 .banner-outer .slide1 {
-	background: url(../images/banner1.jpg) no-repeat center top / cover;
+	background: url(../images/Banner1.png)no-repeat center top / cover;
+	 background-size: 100% 70%;
 }
 .banner-outer .slide2 {
-	background: url(../images/banner2.jpg) no-repeat center top / cover;
+	background: url(../images/Banner2.png) no-repeat center top / cover;
+    background-size: 100% 70%;
 }
-.banner-outer .slide3 {
-	background: url(../images/banner3.jpg) no-repeat center top / cover;
-}
+ 
 .banner-outer .content {
 	display: table-cell;
 	vertical-align: middle;
@@ -694,8 +694,8 @@ textarea:focus::placeholder{
 	display: inline-block;
 }
 .banner-outer .bx-wrapper .bx-pager a {
-	background: #fff;
-	border-radius: 2px;
+	background: black;
+	border-radius: 70px;
 	display: block;
 	height: 5px;
 	margin: 0 4px;
@@ -1508,7 +1508,7 @@ ul.our-strength li .title {
 	float: left;
 	margin-left: 100px;
 	display: block;
-	background: #000;
+	background: ;
 	position: relative;
 }
 .campus-tour ul.gallery li figure {
@@ -1536,7 +1536,7 @@ ul.our-strength li .title {
 	padding-bottom: 4px;
 	font-family: 'texgyreadventorbold';
 	font-size: 24px;
-	color: #fff;
+	color: #000;
 	text-transform: uppercase;
 }
 .campus-tour ul.gallery li p {
@@ -1544,7 +1544,7 @@ ul.our-strength li .title {
 	padding-bottom: 30px;
 	font-weight: 700;
 	font-size: 12px;
-	color: #fff;
+	color: #000;
 	text-transform: uppercase;
 	opacity: 0.5;
 }
@@ -2521,7 +2521,7 @@ ul.our-strength.opt2 li .title {
 	display: block;
 	padding: 60px 0;
 	min-height: 290px;
-	background: url(../images/inner-banner-bg.jpg) no-repeat center top / cover;
+	background: url(../images/blog-img2.jpg) no-repeat center top / cover;
 }
 .inner-banner .content {
 	max-width: 392px;
@@ -2531,7 +2531,7 @@ ul.our-strength.opt2 li .title {
 	padding-bottom: 18px;
 	font-family: 'texgyreadventorbold';
 	font-size: 46px;
-	color: #24353b;
+	color: #fff;
 	text-transform: uppercase;
 }
 .inner-banner p {
@@ -7340,4 +7340,7 @@ p.ex1 {
 }
 p.ex2 {
   margin-left: 60px;
+}
+p.ex3 {
+   font-size:90px;
 }
