@@ -580,11 +580,11 @@ textarea:focus::placeholder{
 }
 .banner-outer .slide1 {
 	background: url(../images/Banner1.png)no-repeat center top / cover;
-	 background-size: 100% 50%;
+	 background-size: 102% 50%;
 }
 .banner-outer .slide2 {
 	background: url(../images/Banner2.png) no-repeat center top / cover;
-    background-size: 100% 50%;
+    background-size: 102% 50%;
 }
  
 .banner-outer .content {
