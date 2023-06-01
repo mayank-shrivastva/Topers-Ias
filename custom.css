@@ -9,6 +9,9 @@ Author: protechtheme
 @File: Edumart Theme Styles
 
 * This file contains the styling for the actual Template,
+
+
+
 this is the file you need to edit to change the look of the Template.
 
 01. General Style
@@ -576,17 +579,17 @@ textarea:focus::placeholder{
 .banner-outer .slide2, 
 .banner-outer .slide3 {
 	display: block;
-	height: 588px;
+	height: 600px;
 }
 .banner-outer .slide1 {
-	background: url(../images/banner1.jpg) no-repeat center top / cover;
+	background: url(../images/Banner1.png)  no-repeat center top / cover;
+	 
 }
 .banner-outer .slide2 {
-	background: url(../images/banner2.jpg) no-repeat center top / cover;
+	background: url(../images/banner2.png)  no-repeat center top / cover;
+     
 }
-.banner-outer .slide3 {
-	background: url(../images/banner3.jpg) no-repeat center top / cover;
-}
+ 
 .banner-outer .content {
 	display: table-cell;
 	vertical-align: middle;
@@ -594,53 +597,7 @@ textarea:focus::placeholder{
 .banner-slider .content .fl-right {
 	float: right;
 }
-.banner-outer .content h1 {
-	display: block;
-	padding-bottom: 20px;
-	font-family: 'texgyreadventorbold';
-	font-size: 32px;
-	color: #24343a;
-	line-height: 50px;
-	text-transform: uppercase;
-	-webkit-animation-delay: 0.2s;
-}
-.banner-outer .content h1 span {
-	display: block;
-	font-size: 62px;
-	-webkit-animation-delay: 0.3s;
-}
-.banner-outer .content p {
-	display: block;
-	padding-bottom: 25px;
-	max-width: 390px;
-	font-size: 16px;
-	color: #24343a;
-	opacity: 0.8;
-	-webkit-animation-delay: 0.34s;
-}
-.banner-outer .content a.btn {
-	-webkit-animation-delay: 0.36s;
-}
-.banner-outer .slide2 .content a.btn {
-	margin: 0 10px;
-}
-.banner-outer .slide2 .content {
-	float: none;
-	text-align: center;
-}
-.banner-outer .slide2 .content h1, 
-.banner-outer .slide3 .content h1 {
-	font-size: 54px;
-	color: #fff;
-}
-.banner-outer .slide2 .content p {
-	margin: 0 auto;
-	color: #fff;
-}
-.banner-outer .slide3 .content h1, 
-.banner-outer .slide3 .content p {
-	color: #fff;
-}
+ 
 .btn {
 	display: inline-block;
 	padding: 12px 24px;
@@ -683,32 +640,7 @@ textarea:focus::placeholder{
 .btn.blue:hover {
 	background: #17a43b;
 }
-.banner-outer .bx-wrapper .bx-pager {
-	bottom: 60px;
-	position: absolute;
-	width: 100%;
-	text-align: center;
-	z-index: 999;
-}
-.banner-outer .bx-wrapper .bx-pager .bx-pager-item {
-	display: inline-block;
-}
-.banner-outer .bx-wrapper .bx-pager a {
-	background: #fff;
-	border-radius: 2px;
-	display: block;
-	height: 5px;
-	margin: 0 4px;
-	outline: 0 none;
-	text-indent: -9999px;
-	width: 18px;
-	opacity: 0.3;
-}
-.banner-outer .bx-wrapper .bx-pager a:hover,
-.banner-outer .bx-wrapper .bx-pager a.active {
-	background: #fff;
-	opacity: 1;
-}
+ 
 /*-----------------------
 	about
 -----------------------*/
@@ -1508,7 +1440,7 @@ ul.our-strength li .title {
 	float: left;
 	margin-left: 100px;
 	display: block;
-	background: #000;
+	background: ;
 	position: relative;
 }
 .campus-tour ul.gallery li figure {
@@ -1536,7 +1468,7 @@ ul.our-strength li .title {
 	padding-bottom: 4px;
 	font-family: 'texgyreadventorbold';
 	font-size: 24px;
-	color: #fff;
+	color: #000;
 	text-transform: uppercase;
 }
 .campus-tour ul.gallery li p {
@@ -1544,7 +1476,7 @@ ul.our-strength li .title {
 	padding-bottom: 30px;
 	font-weight: 700;
 	font-size: 12px;
-	color: #fff;
+	color: #000;
 	text-transform: uppercase;
 	opacity: 0.5;
 }
@@ -1620,7 +1552,7 @@ ul.our-strength li .title {
 -----------------------*/
 .testimonial {
 	display: block;
-    background: url(../images/testimonial-bg.jpg) no-repeat center top / cover;
+    background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg) no-repeat center top / cover;
 	text-align: center;
 	position: relative;
 }
@@ -1632,7 +1564,7 @@ ul.our-strength li .title {
 	top: 0px;
 	z-index: 1;
 	content: "";
-	background: #2e5f85;
+	background:  ;
 	opacity: 0.8;
 }
 .testimonial .container {
@@ -7344,3 +7276,10 @@ p.ex2 {
 p.ex3 {
    font-size:90px;
 }
+  h4.date {
+         text-align: center;
+         }
+         h4.mk{
+         text-align: center;
+         margin-left:10%;
+         }
